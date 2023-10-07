@@ -1,0 +1,43 @@
+.progress_container {
+  margin: 40px 0 40px 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5px 30px 1fr;
+  padding: 0 5% 0 5%;
+  margin-top: 20px;
+}
+
+.line {
+  height: 100%;
+  width: 100%;
+  background-color: #ed5565;
+  border-radius: 10px;
+}
+
+.dots {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-left: 10px;
+}
+
+.dot {
+  justify-self: center;
+  align-self: center;
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.progress_cards {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  .progress_container {
+    width: 80%;
+  }
+}
