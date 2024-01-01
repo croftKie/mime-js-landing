@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx mime-js"
+    "build": "npx mime-js",
+    "dev": "node node_modules/mime-js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mime-js": "^1.1.4"
+    "mime-js": "^1.2.12"
   }
 }

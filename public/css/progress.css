@@ -16,7 +16,7 @@
 
 .dots {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   padding-left: 10px;
 }
 
@@ -39,5 +39,10 @@
 @media screen and (min-width: 1000px) {
   .progress_container {
     width: 80%;
+    margin: 100px 0 100px 0;
   }
+}
+
+.strike-through {
+  text-decoration: line-through;
 }
